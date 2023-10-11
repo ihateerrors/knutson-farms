@@ -905,6 +905,12 @@ h3 {
 
   margin: auto;
 }
+ul.no-style {
+  list-style: none;
+}
+ul.no-gap li {
+  margin-bottom: 0;
+}
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
