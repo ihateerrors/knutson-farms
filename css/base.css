@@ -481,6 +481,8 @@ p + ul {
 .btn {
   font-size: inherit;
   padding: 0.5em 1em;
+  font-weight: 700;
+  border-width: 2px;
 }
 
 p {
@@ -584,7 +586,7 @@ header#mainheader {
   margin-top: 7px;
 }
 #footer h2 {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 #footer .socialicon {
@@ -976,11 +978,15 @@ h3 {
   background-color: #d9d9d9;
 }
 
-.pbutton {
-  color: #ffffff !important;
-  background: #d6078e !important;
+.btn.pbutton {
+  color: #ffffff;
+  background: var(--line-pink);
 }
-
+.btn.pbutton:hover {
+  color: var(--line-pink);
+  background: #fff;
+  border: 2px solid var(--line-pink);
+}
 /* .blbutton {
   color: #ffffff !important;
   background: #d6078e !important;
@@ -1390,6 +1396,7 @@ blockquote:nth-of-type(even) {
 /* --- Adds border radius to all the callout boxes ---  */
 h3.gb {
   font-size: 2.4rem;
+  padding-right: .5em;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
