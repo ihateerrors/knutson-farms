@@ -1,843 +1,1396 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Sound Transit Template</title>
+    <meta
+      name="description"
+      content="Sound Transit Template online open house"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>
-    Sound Transit Template
-  </title>
-  <meta name="description" content="Operations and Maintenance Facility South online open house" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      id="load-fa-5-css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css?ver=5.9"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="load-fa-4-css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css?ver=5.9"
+      media="all"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <meta name="msapplication-config" content="img/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <link rel="stylesheet" id="load-fa-5-css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css?ver=5.9" media="all" />
-  <link rel="stylesheet" id="load-fa-4-css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css?ver=5.9" media="all" />
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
-  <link rel="manifest" href="img/manifest.json" />
-  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5" />
-  <link rel="shortcut icon" href="img/favicon.ico" />
-  <meta name="msapplication-config" content="img/browserconfig.xml" />
-  <meta name="theme-color" content="#ffffff" />
+    <!--Facebook Open Graph -->
+    <meta property="og:title" content="Sound Transit Template  " />
+    <meta
+      property="og:url"
+      content="https://SumnerStationaccess.participate.online/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="2023 Sound Transit Template online open house
+        "
+    />
+    <meta
+      property="og:image"
+      content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
+    />
+    <meta property="og:image:alt" content="A busy transit station" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-  <!--Facebook Open Graph -->
-  <meta property="og:title" content="OMF South" />
-  <meta property="og:url" content="https://SumnerStationaccess.participate.online/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:description" content="Spring 2023 Operations and Maintenance Facility South online open house
-        " />
-  <meta property="og:image"
-    content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg" />
-  <meta property="og:image:secure_url"
-    content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg" />
-  <meta property="og:image:alt" content="A busy transit station" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+    <!--Twitter Open Graph -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sound Transit Template" />
+    <meta
+      name="twitter:description"
+      content=" - 2023 Sound Transit Template online open houseonline open house"
+    />
+    <meta
+      name="twitter:url"
+      content="https://SumnerStationaccess.participate.online/"
+    />
+    <meta
+      name="twitter:image"
+      content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <!--Twitter Open Graph -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="OMF South - Spring 2023" />
-  <meta name="twitter:description"
-    content=" - Spring 2023 Operations and Maintenance Facility South online open houseonline open house" />
-  <meta name="twitter:url" content="https://SumnerStationaccess.participate.online/" />
-  <meta name="twitter:image"
-    content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
- 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800;1,900&family=Roboto+Mono&display=swap"
-    rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-  <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
-  <script>
-            (function (i, s, o, g, r, a, m) {
-                i["GoogleAnalyticsObject"] = r;
-                (i[r] =
-                    i[r] ||
-                    function () {
-                        (i[r].q = i[r].q || []).push(arguments);
-                    }),
-                    (i[r].l = 1 * new Date());
-                (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m);
-            })(
-                window,
-                document,
-                "script",
-                "https://www.google-analytics.com/analytics.js",
-                "ga"
-            );
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800;1,900&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/override.css"
+      media="all"
+    />
+  </head>
 
-            ga("create", "UA-78280327-1", "auto");
-            ga("send", "pageview");
-        </script>
-</head>
-
-<body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0">
-
-  <header id="mainheader">
-    <div class="topbar">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <img class="stlogo" src="img/digital-blue-ST-logo_blu.png" alt="Sound Transit" />
-            <span class="timespan">
-
-            </span>
-          </div>
-          <div class="col-md-5">
-            <div id="google_translate_element"></div>
-          </div>
-        </div>
-        <div class="row" >
-          <div class="col">
-            <a href="spanish.html">Español</a> |
-            <a href="korean.html"> 스페인어 </a> | 
-            <a href="russian.html">русский</a> |
-            <a href="vietnamese.html"> TIẾNG VIỆT </a> |
-            <a href="traditionalchinese.html">正體字/繁體字</a> |
-            <a href="simplifiedchinese.html">简化字</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container xxx">
-      <div class="row">
-        <div class="col-12 hero">
-          <div class="d-flex align-items-center">
-            <img src="img/OMF.png"
-              alt="Operations and Maintenance Facility South logo" />
-            <h1>Sound Transit Template</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ---- Navbar START ---- -->
-  <div class="topdiv sticky-top">
-    <progress id="progressbar" value="0" max="100"></progress>
-    <nav class="navbar navbar-expand-sm bg-transparent py-0 sticky-top">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <nav class="collapse navbar-collapse top_nav scrollspy_row" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#welcome">Welcome</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#ev">Environmental review</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#alternatives">Alternatives</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#next">Next steps</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </nav>
-  </div>
-  <!-- ---- Navbar END ---- -->
-
-<main> 
-  <!-- ---- Welcome START ---- -->
-
-  <div id="welcome">
-    <div class="entry-header nm" id="sec-title">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <header>
-              <h2>Welcome</h2>
-            </header>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <!-- ----- Left column ----  -->
-        <div class="col-md-7 pe-5">
-          <div>
-            <h3>What's the latest?</h3>
-            <h4 class="pt-0 mt-0">More environmental review ahead for OMF South</h4>
-            <p>
-              Later this year, we are going to publish an Environmental Impact
-              Statement for the Operations and Maintenance Facility South in
-              compliance with the National Environmental Policy Act. The
-              Federal Transit Administration will be the lead federal agency.
-            </p>
-            <p>
-              We published a Draft EIS under the State Environmental Policy
-              Act (SEPA) in 2021 that evaluated three possible sites for the
-              OMF South facility. After a public comment period (<a
-                href="https://www.soundtransit.org/sites/default/files/documents/operations-and-maintenance-facility-south-public-engagement-summary-20211110.pdf"
-                target="_blank">engagement summary</a>,
-              <a href="https://www.soundtransit.org/sites/default/files/documents/operations-and-maintenance-facility-south-deis-comment-summary-report-20211110.pdf"
-                target="_blank">comment summary</a>), the Sound Transit Board identified the South 336th Street
-              site in Federal Way as the preferred alternative in December
-              2021, with all three sites still to be evaluated in a Final EIS.
-              To align the federal and state processes, we will publish a NEPA
-              Draft / SEPA Supplemental Draft EIS in 2023 that evaluates
-              these same alternatives. A joint NEPA /SEPA Final EIS will follow
-              in 2024.
-            </p>
-            <ul>
-              <li>
-                There will be a public comment period for the NEPA Draft /
-                SEPA Supplemental Draft EIS.
-              </li>
-              <li>
-                All public comments that were provided on the SEPA Draft EIS
-                in 2021 are still valid and do not need to be resubmitted.
-              </li>
-              <li>
-                We will respond to all substantive comments from both comment
-                periods in the Final EIS.
-              </li>
-              <li>
-                After the Final EIS is published, the Sound Transit Board will
-                select a project to be built.
-              </li>
-            </ul>
-            <p>
-              Sound Transit is still working to confirm the project schedule
-              because of these changes. We are exploring opportunities to help
-              us stay close to our planned opening date of 2029, but the date
-              for opening may be as late as 2032. We will share an updated
-              project schedule when we have more certainty.
-            </p>
-            <h4>
-              What has changed since the SEPA Draft EIS was published in 2021?
-            </h4>
-            <p>
-              We’ve continued advancing our design and engineering work on the
-              project since the 2021 publication of the SEPA Draft EIS. We’re
-              working now to evaluate the potential environmental impacts of these
-              design refinements, which will be incorporated in the NEPA Draft
-              / SEPA Supplemental Draft EIS.
-            </p>
-            <h5 class="pb-4">Project refinements</h5>
-            <ul>
-              <li>
-                We have <b>added a test track and associated access road</b> to
-                the proposed site layouts for South 336th Street (preferred
-                alternative) and South 344th Street alternatives. The test track
-                would help us prepare new and existing light rail vehicles for
-                service. The Midway Landfill Alternative would not include a test
-                track because of varying grades.
-              </li>
-              <li>
-                We’ve made some
-                <b>
-                  updates to the South 336th Street (preferred alternative) site
-                  layout
-                </b>
-                in close coordination with the City of Federal Way. Changes
-                include Changes include replacing the functionality of 20th Avenue South, which would be closed to make
-                space for the OMF South facility, by extending 18th Place South between South 340th and 336th streets.
-                (Our earlier site design did not include a replacement street for 20th Avenue South.)
-              </li>
-              <ul>
-                <li>
-                  The 18th Place South extension would also include a multi-use
-                  path.
-                </li>
-                <li>
-                  If the Sound Transit Board selects the preferred alternative as the site to be built, Sound Transit
-                  would submit a street vacation application to the Federal Way City Council for their approval to make
-                  these street changes as part of construction for OMF South. We’ll share more information later this
-                  year about this process.
-
-
-                </li>
-              </ul>
-            </ul>
-            </ul>
-            <!-- Accordion -->
-            <button class="accordion thr" aria-expanded="false" aria-controls="accordion">
-              What is an Operations and Maintenance Facility?
-            </button>
-            <div class="panel">
-              <p>
-                An OMF is where Link light rail trains go for cleaning, storage
-                and maintenance, 24 hours a day, 365 days a year. Sound Transit
-                needs four strategically located OMF facilities. We need this new
-                OMF in the South Sound to receive, store and service a larger
-                train fleet to support future light rail extensions to Tacoma and
-                throughout the region. To build this new facility, we need
-                approximately 60-70 acres (for reference, one football field is
-                1.3 acres) near the
-                <a href="https://www.soundtransit.org/system-expansion/federal-way-link-extension"
-                  target="_blank">Federal
-                  Way Link Extension</a>.
-              </p>
-              <hr class="thr" />
+  <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0">
+    <header id="mainheader">
+      <div class="topbar">
+        <div class="container-xxl px-lg-5">
+          <div class="row">
+            <div class="col-md-7">
+              <img
+                loading="lazy"
+                class="st-logo"
+                src="img/digital-blue-ST-logo_blu.png"
+                alt="Sound Transit"
+              />
+              <span class="timespan"> </span>
             </div>
-            <!-- Accordion END -->
-
-          </div>
-        </div>
-
-        <!-- Right-column -->
-        <div class="col-md-5">
-          <div class="p-2 mt-5">
-
-            <!-- callout -->
-            <h3 class="gb">Questions or comments?</h3>
-            <div class="callout">
-              <p>
-                We're always here to help. You can contact the project team at
-                <a href="mailto:omfsouth@soundtransit.org">omfsouth@soundtransit.org</a>
-                or call 206-398-5453.
-              </p>
-              <p>
-                We encourage you to sign up for project email updates for all
-                the latest news as OMF South develops.
-              </p>
-              <!-- <h3>
-                  Sign up for project updates
-                </h3> -->
-              <label for="subscribe-target">Sign up for project updates</label>
-              <form action="https://public.govdelivery.com/accounts/WASOUND/subscribers/qualify"
-                id="system-expansion-subscription-form" method="get" target="_blank" novalidate="novalidate">
-                <input type="hidden" name="qsp" id="qsp" value="WASOUND_24" />
-                <input type="hidden" value="1" name="country_code" id="country_code" />
-                <input type="hidden" id="subscription_type" name="subscription_type" value="email" />
-                <div class="">
-                  <div class="footer__service-alerts-form">
-                    <span class="form__label sr-only" id="subscribe-form-input-placeholder">Enter your email
-                      address</span>
-                    <input class="form__control" id="subscribe-target" name="email" type="text"
-                      placeholder="Enter your email address" aria-describedby="subscribe-form-input-placeholder" />
-                  </div>
-                </div>
-                <div class="">
-                  <div class="footer__service-alerts-submit">
-                    <button type="submit" class="btn pbutton">
-                      Subscribe now
-                    </button>
-                  </div>
-                </div>
-              </form>
+            <div class="col-md-5">
+              <div id="google_translate_element"></div>
             </div>
-            <!-- end callout -->
-            <div>
-              <div>
-                <p>&nbsp;</p>
+          </div>
+          <div class="row" style="margin-top: -0.5%">
+            <div class="col">
+              <div class="col">
+                <a class="lang-link" href="spanish.html"> Español </a>
+                |
+                <a class="lang-link" href="somali.html">Soomaali</a>
+                |
+                <a class="lang-link" href="simplified-chinese.html">简化字</a>
+                |
+                <a class="lang-link" href="traditional-chinese.html"
+                  >繁體中文</a
+                >
+                |
+                <a class="lang-link" href="vietnamese.html"> Tiếng Việt </a>
+                |
+                <a class="lang-link" href="korean.html">한국어</a>
+                |
+                <a class="lang-link" href="tagalog.html">Tagalog</a>
+                |
+                <a class="lang-link" href="amharic.html"> አማርኛ </a>
               </div>
-              <div>
-                <!-- Modal - pt1 -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xxl px-xxl-5">
+        <div class="row">
+          <div class="col-12 hero py-0">
+            <div class="d-flex align-items-center">
+              <img
+                loading="lazy"
+                src="img/ooh-header-sounder.png"
+                class="d-none d-sm-block"
+                alt="Locomotive Logo"
+              />
+              <h1>Sound Transit template</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-                <a role="button" class="btn px-0 bo" data-bs-toggle="modal" data-bs-target="#trackModal">
-                  <img
-                    src="https://oohkenmoreconstruction.blob.core.windows.net/media/Default/OMF-South/en/OMFSouthTestTrackEnglish.jpg"
-                    alt="Detailed map shwoing the South 336th Street and South 344th street alternatives. The map details the physical boundaries of the two sites, showing they overlap in places. The map displays the the mainline track, access road, and test track."
-                    class="" />
-                  <figcaption class="s2">
-                    A test track would run parallel to the connecting light rail tracks for the South 336th Street and
-                    South 344th Street alternatives. &nbsp;&nbsp;| &nbsp;&nbsp;Click to enlarge
-                  </figcaption>
-                </a>
+    <div class="topdiv sticky-top">
+      <progress id="progressbar" value="0" max="100"></progress>
+      <nav class="navbar navbar-expand-sm bg-transparent py-0 sticky-top">
+        <div class="container-xxl px-lg-5">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav
+            class="collapse navbar-collapse top_nav scrollspy_row"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#welcome">Welcome</a>
+              </li>
 
-                <!-- Modal - pt2 -->
-                <div class="">
-                  <div class="modal fade" id="trackModal" tabindex="-1" aria-labelledby="mapModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <!-- <h4>Test track</h4> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#station-construction"
+                  >Station construction</a
+                >
+              </li>
 
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <li class="nav-item">
+                <a class="nav-link" href="#stay-in-touch">Stay in touch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#stay-in-touch">Sign up for alerts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+    </div>
+
+    <div class="scroll-margin" id="welcome">
+      <div class="entry-header nm" id="sec-title">
+        <div class="container-xxl px-lg-5">
+          <div class="row">
+            <div class="px-4 col">
+              <header>
+                <h2>Welcome</h2>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-xxl px-lg-5">
+        <div class="row">
+          <div class="px-4 col-lg-8 pt-5 mt-5">
+            <p>
+              The NE 130th Street Infill Station for Sound Transit’s Lynnwood
+              Link Extension will provide additional service to North Seattle
+              residents once complete. Explore this site for information about
+              the construction of station finishes, streetscape, and roadway
+              improvements over the next two and a half years. Learn more about
+              what to expect as we prepare for the station to be open in
+              mid-2026. The Lynnwood Link Extension project, connecting to
+              service from Northgate to Lynnwood City Center Station, is
+              scheduled to open for service in Fall 2024.
+            </p>
+            <figure class="">
+              <a
+                target="_blank"
+                href="https://participateonline.blob.core.windows.net/lle-130th-infill-station/Aerial View of NE 130th Street Infill Station.png"
+              >
+                <img
+                  loading="lazy"
+                  src="https://participateonline.blob.core.windows.net/lle-130th-infill-station/Aerial View of NE 130th Street Infill Station.png"
+                  alt="An illustration of people at Lakewood Station. "
+                />
+              </a>
+              <span class="visually-hidden"> </span>
+              <figcaption class="s2"></figcaption>
+            </figure>
+
+            <p>
+              In 2016 voters approved the addition of a light rail station to
+              the Lynnwood Link Extension at NE 130th St by 2031. In February
+              2020, the Sound Transit Board authorized staff to complete final
+              design of the station, and in summer 2022 the Board approved
+              additional budget and contract changes for the accelerated
+              delivery of the NE 130th Street Infill Station. This decision
+              advanced opening of the new station to mid-2026, revised from the
+              original 2031 opening date projected in ST3.
+            </p>
+            <p>
+              The new station will serve a growing residential neighborhood
+              between the Northgate and Shoreline South/148th stations and will
+              be built within the existing Lynnwood Link Extension line. Once
+              complete in mid-2026 we estimate the NE 130th Street Infill
+              Station will provide approximately 3,400 daily boardings with
+              access to Westlake Station in 15 minutes and SeaTac/Airport
+              Station in 53 minutes.
+            </p>
+            <p>
+              More information about the NE 130th Street Infill Station and the
+              overall
+              <a
+                href="https://www.soundtransit.org/system-expansion/lynnwood-link-extension"
+                target="_blank"
+                rel="noopener"
+                >Lynnwood Link project background and history</a
+              >
+              can be found on Sound Transit’s project page.
+            </p>
+            <p>
+              Additional information about other nearby projects led by our
+              agency partners can be found at the
+              <a
+                href="https://www.seattle.gov/transportation/projects-and-programs/programs/transportation-planning/ne-130th-and-125th-mobility-and-safety-project"
+                target="_blank"
+                rel="noopener"
+              >
+                City of Seattle NE 130th and NE 125th Mobility and Safety
+                Project
+              </a>
+              and the
+              <a
+                href="https://www.shorelinewa.gov/our-city/145th-street-corridor"
+                target="_blank"
+                rel="noopener"
+              >
+                City of Shoreline 145th Street Projects
+              </a>
+              websites.
+            </p>
+          </div>
+
+          <!-- Right-column -->
+          <div class="px-4 col-lg-4">
+            <div class="mt-lg-5">
+              <div class="pt-5">
+                <!-- callout -->
+
+                <h3 class="gb mt-5">
+                  Talk with us about construction in the neighborhood
+                </h3>
+                <div class="callout">
+                  <h4 class="mt-0">
+                    NE 130th St Station Pre-Construction Open House
+                  </h4>
+                  <ul class="no-style no-gap">
+                    <li>
+                      <b>Tuesday, October 24, 5-7PM</b>
+                    </li>
+                    <li>Lake City Library Meeting Room</li>
+                    <li>12501 28th Ave NE</li>
+                    <li>Seattle, WA 98125</li>
+                  </ul>
+                  <p>
+                    The NE 130th St Station pre-construction open house event is
+                    for neighbors and community members to meet our team, learn
+                    about the project, understand the schedule, and ask
+                    questions. Learn more on this site about what to expect
+                    during construction, how to stay informed about the latest
+                    construction activities, and how to reach us. Can’t make it?
+                    Information on this site covers the major details. If you
+                    still have questions, please contact the
+                    <a href="#stay-in-touch">construction team.</a>
+                  </p>
+                </div>
+                <figure class="">
+                  <a target="_blank" href="img/corridor.png">
+                    <img
+                      loading="lazy"
+                      src="img/corridor.png"
+                      alt="An illustration of people at Lakewood Station. "
+                    />
+                  </a>
+                  <span class="visually-hidden"> </span>
+                  <figcaption class="s2"></figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-lg-8 px-4 mb-5">
+            <div class="accordion-list">
+              <!-- Accordion 1-->
+              <button class="accordion thr">
+                Infill station development schedule
+              </button>
+              <div class="panel">
+             
+                <p>
+                  The NE 130th St Infill Station will be under construction
+                  through mid-2026, while Lynnwood Link Extension prepares to
+                  begin service from Northgate to Lynnwood City Center in Fall
+                  2024.
+                </p>
+                <figure class="">
+                  <a
+                    target="_blank"
+                    href="https://participateonline.blob.core.windows.net/lle-130th-infill-station/Schedule_construction.jpg"
+                  >
+                    <img
+                      loading="lazy"
+                      src="https://participateonline.blob.core.windows.net/lle-130th-infill-station/Schedule_construction.jpg"
+                      alt="Project schedule"
+                    />
+                  </a>
+                  <span class="visually-hidden"> </span>
+                  <figcaption class="s2"></figcaption>
+                </figure>
+                <hr class="thr" />
+              </div>
+              <!-- Accordion 2 -->
+              <button class="accordion thr">Infill station design</button>
+              <div class="panel">
+                <p>
+                  The station design reflects the unique identity of this
+                  neighborhood as an urban oasis, the community’s desire for a
+                  modern design, and pride in nearby natural resources of
+                  Thornton Creek. The design incorporates bright color and art,
+                  seating areas, native landscaping, and natural elements such
+                  as stormwater retention features and boulders. Renderings of
+                  the final station design are included at the top of this
+                  section.
+                </p>
+                <p>
+                  The Sound Transit design team incorporated
+                  <a
+                    href="https://participateonline.blob.core.windows.net/lle-130th-infill-station/ne-130th-infill-station-fall-2020-outreach-summary.pdf"
+                    target="_blank"
+                    rel="nofollow noopener"
+                  >
+                    the feedback we received
+                  </a>
+                  in fall 2020 to the final station design. Community members
+                  were asked to share their preferences for color, seating, and
+                  bollards. The blue color preferred by the community was used
+                  extensively throughout the station finishes, associated
+                  specifically with points of vertical circulation (stairs,
+                  elevators, and escalators). The seating elements include both
+                  weathered boulders that reflect the station design’s
+                  recognition of nearby Thornton Creek, as well as shaped
+                  concrete benches located throughout the plaza areas. The
+                  bollards are a modern stainless steel type with a sloped top.
+                </p>
+                <!-- carousel -->
+                <div>
+                  <div
+                    id="carouselExampleCaptions"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="4"
+                        aria-label="Slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="5"
+                        aria-label="Slide 6"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="6"
+                        aria-label="Slide 7"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="7"
+                        aria-label="Slide 8"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="8"
+                        aria-label="Slide 9"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="9"
+                        aria-label="Slide 10"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="10"
+                        aria-label="Slide 11"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <!-- --- Carousel Item 1 --- -->
+                      <div class="carousel-item active">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop/public/2023-05/Station%20overview-resized.jpg?h=17678022&itok=pSBDjN2J"
+                          class="d-block w-100"
+                          alt="Girl coloring a Sounder station coloring sheet at a Springbrook community event on August 12."
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">
+                            130th St Infill Station overview
+                          </h5>
+                          <p class="carousel-cap-text">
+                            A new elevated station runs along the west side of
+                            5th Ave NE at NE 130th St, and connects riders to
+                            bus stops, drop-off areas, and pedestrian and
+                            bicycle improvements. A station plaza at the street
+                            level welcomes riders with art, landscaping,
+                            stairways, and ADA access leading to the train
+                            platform.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
                         </div>
-                        <div class="modal-body">
-                          <img
-                            src="https://oohkenmoreconstruction.blob.core.windows.net/media/Default/OMF-South/en/OMFSouthTestTrackEnglish.jpg"
-                            alt="Detailed map shwoing the South 336th Street and South 344th street alternatives. The map details the physical boundaries of the two sites, showing they overlap in places. The map displays the the mainline track, access road, and test track. " />
+                      </div>
+                      <!-- --- Carousel Item 2 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/Overall%20design%20concept.jpg?h=1ab43eed&itok=XjvKH99g"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event."
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">
+                            Station design elements
+                          </h5>
+                          <p class="carousel-cap-text">
+                            The station design reflects the unique identity of
+                            this neighborhood as an urban oasis, the community’s
+                            desire for a modern design, and pride in nearby
+                            natural resources of Thornton Creek. The design
+                            incorporates color and art, seating areas, native
+                            landscaping, and natural elements such as boulders.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn pbutton" data-bs-dismiss="modal">
-                            Close
-                          </button>
+                      </div>
+                      <!-- --- Carousel Item 3 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/North%20plaza%20rendering.jpg?h=ebf29de5&itok=ZuZPIWzr"
+                          class="d-block w-100"
+                          alt="Sound Transit staff speaking with community members
+                    about the project."
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">North plaza</h5>
+                          <p class="carousel-cap-text">
+                            The north plaza will feature many pedestrian
+                            amenities, access to the north lobby, prominent
+                            artwork, and a creative stormwater bioretention
+                            feature. *artwork displayed to show art locations;
+                            not final artwork by Romson Bustillo
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
+                        </div>
+                      </div>
+                      <!-- --- Carousel Item 4 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/North%20lobby.jpg?h=567ed9f0&itok=G_9_nZEI"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event"
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">
+                            North station lobby and central plaza
+                          </h5>
+                          <p class="carousel-cap-text">
+                            The north lobby opens to the central plaza, which
+                            provides both passage to the platform level as well
+                            as a public gathering space.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
+                        </div>
+                      </div>
+                      <!-- --- Carousel Item 5 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/South%20plaza.png?h=3a1cf1ed&itok=RhZBuCmS"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event"
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">South plaza</h5>
+                          <p class="carousel-cap-text">
+                            At the south plaza, visitors enter the station
+                            through an open plaza portal to the station lobby.
+                            *artwork displayed to show art locations; not final
+                            artwork by Romson Bustillo
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
+                        </div>
+                      </div>
+                      <!-- --- Carousel Item 6 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/South%20lobby.jpg?h=02c4175d&itok=wwknylfS"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event"
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">
+                            South station lobby
+                          </h5>
+                          <p class="carousel-cap-text">
+                            The south station lobby includes wayfinding and
+                            ticketing elements, as well as access to the
+                            platform level.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
+                        </div>
+                      </div>
+                      <!-- --- Carousel Item 7 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/Station%20platform.jpg?h=a18c3ac4&itok=kj3y_yvR"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event"
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">Station platform</h5>
+                          <p class="carousel-cap-text">
+                            The station platform provides covered walkways with
+                            LED lighting, information kiosks and a tactile
+                            wayfinding path leading to the lobby and plaza
+                            levels.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
+                        </div>
+                      </div>
+                      <!-- --- Carousel Item 8 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/Drop%20off%20area.jpg?h=6a363265&itok=ZwWTG7Q3"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event"
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">
+                            North loop drop-off area
+                          </h5>
+                          <p class="carousel-cap-text">
+                            Passenger drop-off at the north end of the station
+                            provides access for passengers, as well as a
+                            landscaped bioretention pond for green stormwater
+                            management.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
+                        </div>
+                      </div>
+                      <!-- --- Carousel Item 9 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/South%20drop-off%20area.jpg?h=8501dd07&itok=6AnX3hfq"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event"
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">
+                            5th Ave NE drop-off area
+                          </h5>
+                          <p class="carousel-cap-text">
+                            A dedicated drop-off for paratransit vehicles
+                            provides accessibility to the central plaza, near
+                            the elevators and escalators, without having to
+                            cross the street.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
+                        </div>
+                      </div>
+                      <!-- --- Carousel Item 10 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/Artwork%20locations.jpg?h=cc592c06&itok=7F27EenB"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event"
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">
+                            Public art development
+                          </h5>
+                          <p class="carousel-cap-text">
+                            Artwork will span the length of the station, from
+                            paint on the guideway column at the south entrance,
+                            to porcelain enamel panels in and around the stair
+                            enclosures both at the north and south ends of the
+                            station, to porcelain tile applied to the
+                            east-facing side of the ancillary wall.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
+                        </div>
+                      </div>
+                      <!-- --- Carousel Item 11 --- -->
+                      <div class="carousel-item">
+                        <img
+                          loading="lazy"
+                          src="https://www.soundtransit.org/sites/default/files/styles/carousel_images_desktop_extra_large/public/2023-05/20230423_140801.jpg?h=71976bb4&itok=9kEtmdJ2"
+                          class="d-block w-100"
+                          alt="A coloring sheet filled by a visitor at a neighborhood event"
+                        />
+                        <div class="carousel-caption">
+                          <h5 class="carousel-cap-header">
+                            Public art development
+                          </h5>
+                          <p class="carousel-cap-text">
+                            Selected artist Romson Bustillo participates in a
+                            community workshop organized in collaboration with
+                            Coyote North and Refugee Artisan Initiative (RAI),
+                            one of several community touchpoints used to inform
+                            the final elements of his design.
+                          </p>
+                          <p class="carousel-cap-date">May 24, 2023</p>
                         </div>
                       </div>
                     </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon carousel-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon carousel-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
                 </div>
+                <!-- end carousel -->
+
+                <hr class="thr" />
               </div>
-              <div>
-                <p>&nbsp;</p>
-                <!-- callout -->
-                <h3 class="gb"><i class="fa fa-info-circle" aria-hidden="true"></i> What's a test track?</h3>
-                <div class="callout">
-                  <p class="px-2">
-                    Before a new light rail vehicle can start carrying passengers,
-                    we need to test how it performs on the track. Since we have
-                    light rail service running on the mainline track during most
-                    of the day, we currently do all vehicle testing during the
-                    short service window from 1-5 a.m. Building a test track will
-                    allow us to test vehicles more quickly to get them ready for
-                    service—and we have a lot more cars coming online as we expand
-                    the regional light rail system! After analyzing where a test
-                    track could be in our system, we determined that locating it
-                    with the OMF South was the best fit technically and
-                    operationally.
+              <!-- End Accordion -->
+
+              <!-- Accordion -->
+              <button class="accordion thr">Public art</button>
+              <div class="panel">
+                <p>
+                  Artist <a
+                    target="_blank"
+                    rel="nofollow noopener`"
+                    href="https://www.romsonbustillo.com/about"
+                    >Romson Bustillo</a
+                  >, a Seattle-based artist, is developing designs for the
+                  station artwork. Bustillo was born on the island of Mindanao
+                  in the Philippines. His layered works and immersive
+                  collaborations go back to his Philippine lineage, his South
+                  Seattle/Pacific Northwest upbringing, and numerous research
+                  travels. An artist selection panel made up of members from the
+                  community and of art/design professionals were drawn to the
+                  intricate detail in his prints and his inter-disciplinary
+                  studio work, and chose Bustillo to create artwork for the NE
+                  130th Station based on his previous work and his vision for
+                  the site.
+                </p>
+                <p>
+                  The elevated station made Bustillo think of the dwellings on
+                  stilts from his birth country, and this reference is one of
+                  many in his iconography of patterns that incorporate symbolic
+                  elements from his culture, the cultural context of the station
+                  and neighborhood, and the people who inhabit it, past and
+                  present. Bustillo’s intention is to create an inviting work
+                  that conveys an optimistic future, supports story-telling,
+                  encourages discovery, and contributes to wayfinding.
+                </p>
+                <p>
+                  At the south entrance, where the majority of passengers will
+                  enter the station, painted artwork will turn the guideway
+                  column into a landmark that welcomes passengers as they
+                  approach the station. Bustillo’s artwork will guide passengers
+                  as they enter and exit the station and make their way to the
+                  ticket vending machines and to the train platforms. His
+                  designs will be translated into richly colored, porcelain
+                  enamel panels that wrap around the entrances at both north and
+                  south lobbies. The service building, in the center of the
+                  station, will also be covered on its east-facing side with
+                  100-foot-long mural of porcelain tiles, featuring another
+                  variation of patterns and colors.
+                </p>
+                <p>
+                  Romson Bustillo will be presenting to the City of Seattle’s
+                  Public Art Advisory Committee on October 24 to walk through
+                  some updated renderings of the artwork that will be installed
+                  over the station finishes at both North and South entrances,
+                  as well as the central plaza artwork. Additional updates on
+                  public art at the station will be shared this fall.
+                </p>
+                <blockquote>
+                  <p>
+                    <q>
+                      My approach is informed by research, the location of the
+                      station, its immediate environment and fauna, commuters,
+                      and community workshops held. I’ve considered how the
+                      monumental scale of this project allows for both intimate
+                      and communal visual experiences.
+                    </q>
                   </p>
-                </div>
-
-                <!-- end callout -->
+                </blockquote>
+                <blockquote>
+                  <p>
+                    <q>
+                      I’m working on creating a bank of “glyphs,” and patterns
+                      that will allow commuters and neighbors to play with
+                      creating and finding narratives within the artwork. Visual
+                      cues will support wayfinding and draw pedestrians to the
+                      station entrances.
+                    </q>
+                  </p>
+                  <footer>Romson Regarde Bustillo</footer>
+                </blockquote>
+                <hr class="thr" />
               </div>
-              
-              </div>
+              <!-- End Accordion -->
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div>&nbsp;</div>
 
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 pe-5">
-
-
-          <div></div>
-        </div>
-        <div class="col-md-5">
-
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-
-        </div>
-        <div class="col-md-5">
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="ev">
-    <div class="entry-header">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2>Environmental review</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-          <h3>What is an Environmental Impact Statement?</h3>
-          <p>
-            Before Sound Transit builds projects, we study the potential
-            impacts each project alternative may have on the natural and built
-            environment in a document called an Environmental Impact
-            Statement. The EIS helps Sound Transit and our project partners
-            evaluate the possible environmental impacts of each potential site
-            during construction and operation. The EIS compares the effects of
-            each alternative to inform the public, agencies and the Sound
-            Transit Board.
-          </p>
-          <p>
-            In the
-            <a href="https://www.soundtransit.org/get-to-know-us/documents-reports/operations-maintenance-facility-south-draft-environmental-impact"
-              target="_blank">OMF South Draft EIS</a>
-            which we prepared in compliance with the Washington State
-            Environmental Policy Act (SEPA) in 2021, we looked at how the
-            Midway Landfill, South 344th Street and South 336th Street site
-            alternatives will each affect air and water quality, historical
-            and cultural resources, property acquisition and land use,
-            economic impacts, hazardous materials, ecosystem resources, cost,
-            schedule and more.
-          </p>
-          <p>
-            Now, we’re combining our state (SEPA) and federal (NEPA)
-            environmental review processes. We will publish a NEPA Draft /
-            SEPA Supplemental Draft EIS that evaluates these same alternatives
-            this year, followed by a joint NEPA / SEPA Final EIS in 2024.
-          </p>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="alternatives">
-    <div class="entry-header">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2>Alternatives</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-          <p class="leady me-3">
-            On Dec. 16, 2021, the Sound Transit Board identified the South
-            336th Street site in Federal Way as the preferred alternative for
-            the location for OMF South. A preferred alternative is a statement
-            of where the agency is leaning based on information available at
-            the time. It's not a final decision.
-          </p>
-          <h3 class="stlineblue">
-            South 336th Street Alternative (preferred alternative)
-          </h3>
-          <ul>
-            <li>
-              The South 336th Street Alternative is in Federal Way, between
-              South 336th Street and South 341st Place, and between I-5 and SR
-              99. The site footprint is approximately 65 acres.
-            </li>
-            <li>
-              This site would require 1.4 miles of connecting light rail track
-              from the Federal Way Link Extension that will be part of the
-              <a href="https://www.soundtransit.org/system-expansion/tacoma-dome-link-extension" target="_blank">
-                Tacoma Dome Link Extension</a>. The preferred alternative also includes a test track to
-              prepare new vehicles for service. The test track would run
-              parallel and on the east side of the connecting light rail
-              tracks.
-            </li>
-          </ul>
-
-          <h3 class="rustyred">South 344th Street Alternative</h3>
-          <ul>
-            <li>
-              The South 344th Street Alternative is in Federal Way, between
-              South 336th Street and South 344th Street, and between I-5 and
-              18th Place South. The site footprint is approximately 65 acres.
-            </li>
-            <li>
-              This site would require 1.8 miles of connecting light rail track
-              from the Federal Way Link Extension that will be part of the
-              <a href="https://www.soundtransit.org/system-expansion/tacoma-dome-link-extension" target="_blank">
-                Tacoma Dome Link Extension</a>. The South 344th Street Alternative also includes a test track
-              to prepare new vehicles for service. The test track would run
-              parallel and on the east side of the connecting light rail
-              tracks.
-            </li>
-          </ul>
-
-          <h3 class="stwaveteal">Midway Landfill Alternative</h3>
-          <ul>
-            <li>
-              The Midway Landfill Alternative is in Kent, between South 246th
-              Street and South 252nd Street, and between I-5 and SR 99. The
-              site footprint is approximately 68 acres.
-            </li>
-            <li>
-              Due to its location along the Federal Way Link Extension line,
-              the Midway Landfill does not include connecting tracks. This
-              site would not include a test track due to varying grades.
-            </li>
-          </ul>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-        </div>
-
-        <div class="col-md-5">
-          <div class="pt-5">
-            <!-- Modal - pt1 -->
-
-            <a role="button" class="btn p-2 bo" data-bs-toggle="modal" data-bs-target="#mapModal">
-              <img src="https://oohkenmoreconstruction.blob.core.windows.net/media/Default/OMF-South/en/OMFSouthOverviewMapEnglish.jpg"
-                alt="Map showing the three OMF South alternatives in Kent and Federal Way, with inset maps showing more detailed locations. The South 336th Street Alternative is indicated as the preferred alternative."
-                class="" />
-              <figcaption class="s2"> The three alternatives for OMF South being studied in the EIS. &nbsp;&nbsp;|
-                &nbsp;&nbsp;Click to enlarge</figcaption>
-            </a>
-
-            <!-- Modal - pt2 -->
-            <div class="">
-              <div class="modal fade" id="mapModal" tabindex="-1" aria-labelledby="mapModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <!-- <h3>Schedule</h3> -->
-
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="https://oohkenmoreconstruction.blob.core.windows.net/media/Default/OMF-South/en/OMFSouthOverviewMapEnglish.jpg"
-                        alt="Map showing the three OMF South alternatives in Kent and Federal Way, with inset maps showing more detailed locations. The South 336th Street Alternative is indicated as the preferred alternative. " />
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn pbutton" data-bs-dismiss="modal">
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <div class="scroll-margin" id="station-construction">
+      <div class="entry-header mt-0">
+        <div class="container-xxl px-lg-5">
+          <div class="row">
+            <div class="px-4 col">
+              <h2>Station construction</h2>
             </div>
-            <!-- end callout -->
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div id="next">
-    <div class="entry-header">
-      <div class="container">
+      <div class="container-xxl px-lg-5">
         <div class="row">
-          <div class="col">
-            <h2>Next steps</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="8-4-cols">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h3>What comes next for the OMF South?</h3>
-            <p>
-              We will evaluate the South 336th Street Alternative, along with
-              other alternatives, in the NEPA Draft / SEPA Supplemental
-              Draft EIS set to be published later this year. The Final EIS,
-              which will include responses to substantive Draft EIS comments
-              and evaluation of the preferred and other alternatives, is
-              scheduled to be issued in mid-2024. After that, the Board will
-              select a project to be built.
+          <div class="px-4 col-lg-8 pt-4">
+            <p class="me-3">
+              Construction of the NE 130th St Infill Station has occurred in
+              phases as the Lynnwood Link Extension Project takes shape. Work on
+              the station platform and canopy structural steel was completed,
+              allowing operational testing prior to Lynnwood Link’s projected
+              opening in fall 2024.
             </p>
-            <p>&nbsp;</p>
-            <article class="timelinepage">
-              <h3>OMF South schedule*</h3>
-              <div class="timeline-wrapper">
-                <div class="tl now">
-                  <h4>June 2023</h4>
-                  <ul>
-                    <li>
-                      <strong>Project update (we are here)&nbsp;<i class="fa fa-check" aria-hidden="true"></i></strong>
-                    </li>
-                  </ul>
-                </div>
-                <div class="tl dot">
-                  <h4>Mid to late 2023</h4>
-                  <ul>
-                    <li>
-                      <strong>NEPA Draft / SEPA Supplemental Draft EIS published
-                        and comment period begins</strong>
-                    </li>
-                  </ul>
-                </div>
-                <div class="tl dot">
-                  <h4>Mid 2024</h4>
-                  <ul>
-                    <li>
-                      <strong>Final EIS published</strong>
-                    </li>
-                  </ul>
-                </div>
-                <div class="tl dot">
-                  <h4>Mid to late 2024</h4>
-                  <ul>
-                    <li>
-                      <strong>Sound Transit Board selects the project to be
-                        built</strong>
-                    </li>
-                  </ul>
-                </div>
+            <p>
+              Work is now being handed off to a different contractor that will
+              complete the final package, including construction of station
+              finishes, and plaza and roadway improvements. Construction and
+              testing will occur between now and the opening of the station in
+              mid-2026.
+            </p>
+            <figure class="">
+              <a
+                target="_blank"
+                href="https://participateonline.blob.core.windows.net/lle-130th-infill-station/during-contruction.jpg"
+              >
+                <img
+                  loading="lazy"
+                  src="https://participateonline.blob.core.windows.net/lle-130th-infill-station/during-contruction.jpg"
+                  alt="An illustration of people at Lakewood Station. "
+                />
+              </a>
+              <span class="visually-hidden"> </span>
+              <figcaption class="s2"></figcaption>
+            </figure>
+            <div>
+              <h3 class="mt-0 leady">
+                <b>What to expect during construction</b>
+              </h3>
+              <p>
+                Construction will ramp up at the site and you will see more
+                activity starting this fall/winter as we continue station
+                construction on the elevated track, at the ground-floor plaza
+                level, as well as the surrounding roadways. Construction will be
+                active through mid-2026, including testing the line at this
+                location, prior to opening this new station.
+              </p>
+              <p>
+                We strive to be a good neighbor and acknowledge that
+                construction can be disruptive. You can expect the following
+                during construction:
+              </p>
+              <ul>
+                <li>
+                  Ongoing movement of crews and large equipment at the station
+                  site and surrounding area; typical work hours are 7am-5pm,
+                  Monday through Friday.
+                </li>
+                <li>
+                  Noise, vibration, and dust associated with major construction.
+                </li>
+                <li>
+                  Roadway closures or modifications to support construction,
+                  with traffic control and detours in place, as needed. See
+                  below for additional detail about long-term closures.
+                </li>
+                <li>
+                  Early work or night work outside of typical work hours will be
+                  necessary at times for utility and roadwork to minimize
+                  traffic impacts or coordinate with Lynnwood Link Extension
+                  testing and operations; nearby neighbors will be notified
+                  directly in these situations.
+                </li>
+                <li>
+                  Direct communication from the Sound Transit outreach and
+                  construction teams where construction may cause temporary
+                  impacts to neighbors, including access to property, etc.
+                </li>
+                <li>
+                  Regular construction notifications and updates provided
+                  through our email listserv. You can
+                  <a
+                    target="_blank"
+                    href="https://public.govdelivery.com/accounts/WASOUND/subscriber/new?topic_id=WASOUND_372"
+                    >sign up for alerts here.</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="mb-0 leady"><b>Roadway closures</b></h3>
+              <p>
+                Major roadway closures will be necessary for site access, to
+                stage equipment and materials and make improvements.
+              </p>
+              <ul>
+                <li>
+                  In late 2024/early 2025, there will be more significant
+                  traffic control around the station at NE 130th St, on 5th Ave
+                  NE north and south of 130th, and at the NE 130th St off-ramp
+                  from I-5.
+                </li>
+                <li>
+                  <strong
+                    >A full street closure will continue on 5th Ave NE between
+                    North Seattle Church of the Nazarene and NE 145th
+                    St.</strong
+                  >
+                  The closure on 5th Ave NE will remain for the duration of the
+                  project; upon reopening, 5th Ave NE will be northbound only
+                  and include a separated bike/pedestrian lane.
+                </li>
+                <li>
+                  There will be a long-term closure of the NE 130th St I-5
+                  off-ramp (15 days) and up to ten weekend off-ramp closures to
+                  prepare and reconstruct the roadway pavement. Additional
+                  information about the timing of these closures will be shared
+                  through project construction alerts.
+                </li>
+              </ul>
+            </div>
+            <figure class="">
+              <a
+                target="_blank"
+                href="https://participateonline.blob.core.windows.net/lle-130th-infill-station/2023_1006_130th_ConstructionMapv2.jpg"
+              >
+                <img
+                  loading="lazy"
+                  src="https://participateonline.blob.core.windows.net/lle-130th-infill-station/2023_1006_130th_ConstructionMapv2.jpg"
+                  alt="An illustration of people at Lakewood Station. "
+                />
+              </a>
+              <span class="visually-hidden"> </span>
+              <figcaption class="s2"></figcaption>
+            </figure>
+            <h3 class="mt-0 leady"><b>Frequently asked questions </b></h3>
+
+            <div class="accordion-list">
+              <!-- Accordion-1 -->
+              <button
+                class="accordion thr"
+                aria-expanded="false"
+                aria-controls="accordion"
+              >
+                When does activity start?
+              </button>
+              <div class="panel">
+                <p>
+                  Significant construction activity will begin in November 2023
+                  and continue through early-2026.
+                </p>
+                <hr class="thr" />
               </div>
-            </article>
-            <p>*Subject to change.</p>
-
-            <!-- Accordion -->
-            <button class="accordion thr" aria-expanded="false" aria-controls="accordion">
-              Questions about your property?
-            </button>
-            <div class="panel">
-              <p>
-                Have you received a property owner letter or phone call from
-                us, or think the project may affect your property? A
-                notification of potential impact does not mean a decision has
-                been made to acquire your property. It does mean there’s a
-                possibility we would need to acquire your property in the
-                future. Final decisions on affected properties and
-                acquisitions won’t occur until after the Final EIS and Sound
-                Transit Board decision. If we find that your property is
-                needed for OMF South, Sound Transit will start official
-                conversations around acquisitions and relocation at that time
-                and after an independent appraisal process.
-              </p>
-              <p>
-                Our project outreach team is available to help with questions
-                every step of the way. To schedule a property owner briefing
-                with members of the project team you can:
-              </p>
-              <ul>
-                <li>
-                  Visit
-                  <a href="https://omfsouthpropertyownerbriefings.as.me/schedule.php">
-                    omfsouthpropertyownerbriefings.as.me</a>
-                </li>
-                <li>Leave a voicemail at 206-398-5453</li>
-                <li>
-                  Email us at
-                  <a href="mailto:OMFSouth@soundtransit.org">OMFSouth@soundtransit.org</a>
-                </li>
-              </ul>
-              <hr class="thr" />
+              <!-- --- -->
+              <!-- Accordion-2 -->
+              <button
+                class="accordion thr"
+                aria-expanded="false"
+                aria-controls="accordion"
+              >
+                How will traffic be detoured?
+              </button>
+              <div class="panel">
+                <p>
+                  Detours will be posted during road closures. This will include
+                  detours for major closures at NE 130th St, 5th Ave NE, and the
+                  I-5 NE 130th St off-ramp. Please tune in to our email alerts
+                  for traffic advisories and detour routes for each closure.
+                </p>
+                <hr class="thr" />
+              </div>
+              <!-- --- -->
+              <!-- Accordion-3 -->
+              <button
+                class="accordion thr"
+                aria-expanded="false"
+                aria-controls="accordion"
+              >
+                Will there be work at night and/or weekends?
+              </button>
+              <div class="panel">
+                <p>
+                  Yes, night work or early work outside of our typical 7am-5pm
+                  workday will be necessary at times for utility and roadwork to
+                  minimize traffic impacts or coordinate with Lynnwood Link
+                  Extension testing and operations; nearby neighbors will be
+                  notified directly in these situations.
+                </p>
+                <hr class="thr" />
+              </div>
+              <!-- --- -->
+              <!-- Accordion-4 -->
+              <button
+                class="accordion thr"
+                aria-expanded="false"
+                aria-controls="accordion"
+              >
+                Is there any other construction happening in the area?
+              </button>
+              <div class="panel">
+                <p>
+                  Several other projects will be in active construction
+                  simultaneously:
+                </p>
+                <ul>
+                  <li>
+                    <b
+                      ><a
+                        target="_blank"
+                        href="https://www.soundtransit.org/system-expansion/lynnwood-link-extension"
+                        >Lynnwood Link Extension:
+                      </a></b
+                    >Opening in Fall 2024, the Lynnwood Link project extends
+                    light rail from Northgate into Snohomish County, serving
+                    four stations, Shoreline South/148th, Shoreline North/185th,
+                    Mountlake Terrace, and Lynnwood City Center. The NE 130th St
+                    Station will be serviced by this line starting in mid-2026.
+                  </li>
+                  <li>
+                    <b
+                      ><a
+                        target="_blank"
+                        href="https://www.seattle.gov/transportation/projects-and-programs/programs/transportation-planning/ne-130th-and-125th-mobility-and-safety-project"
+                        >City of Seattle NE 130th and NE 125th Mobility and
+                        Safety Project
+                      </a></b
+                    >Seattle Department of Transportation is leading work to
+                    provide better access to the new light rail station by
+                    making improvements along NE 130th St, Roosevelt Way NE, and
+                    NE 125th St between 1st Ave NE and Lake City Way NE. Sound
+                    Transit is providing ~$4M in non-motorized access funds for
+                    these improvements. Construction is expected in 2025/2026.
+                  </li>
+                  <li>
+                    <b
+                      ><a
+                        target="_blank"
+                        href="https://www.shorelinewa.gov/our-city/145th-street-corridor/sr-523-n-ne-145th-street-i-5-interchange-project"
+                        >City of Shoreline I-5/SR523 Interchange Project:
+                      </a></b
+                    >
+                    The City of Shoreline Public Works is making improvements
+                    along NE 145th St, including a roundabout at 5th Ave NE.
+                    Work is coordinated with
+                    <a
+                      target="_blank"
+                      href="https://wsdot.wa.gov/construction-planning/search-projects/i-5-sr-523-interchange-improvement"
+                      >WSDOT</a
+                    >. Funding partially provided by Sound Transit’s System
+                    Access Fund grant. Construction is expected to occur in
+                    2024-2025.
+                  </li>
+                  <li>
+                    <b
+                      ><a target="_blank" href="#"
+                        >City of Shoreline Non-Motorized Bridge:
+                      </a></b
+                    >
+                    The City of Shoreline will build a new pedestrian and bike
+                    crossing over I-5 at N 148th Street. The bridge will provide
+                    a vital new pedestrian/bike connection over I-5, improve
+                    safety, reduce travel times, and improve access to regional
+                    transit at the future Shoreline South/148th Station.
+                    Construction is expected 2024-2026.
+                  </li>
+                  <li>
+                    <b
+                      ><a
+                        target="_blank"
+                        href="https://www.soundtransit.org/system-expansion/stride-s3-line"
+                        >ST Stride S3 BRT:
+                      </a></b
+                    >The S3 Stride Line will serve the growing north Lake
+                    Washington communities connecting Shoreline and Seattle to
+                    Bothell. The project will connect riders to Link light rail
+                    at Shoreline South/148th at the corridor’s western end, and
+                    to the S2 line in Bothell, the area’s eastern end. S2 and S3
+                    will connect at the SR 522/I-405 Transit Hub with transit
+                    service provided by Sound Transit, Community Transit and
+                    King County Metro. Construction is expected to begin in
+                    2024, with service starting in 2027.
+                  </li>
+                </ul>
+                <hr class="thr" />
+              </div>
+              <!-- --- -->
             </div>
-          </div>
-
-          <div class="col-md-5">
-            <!-- callout -->
-            <h3 class="gb">The benefits of OMF South</h3>
-            <div class="callout">
-              <ul>
-                <li>
-                  Creates high-skilled, living-wage jobs for more than 470
-                  people in South King County. At our existing OMF, the
-                  average employee wage is more than $40 per hour, or
-                  $80,000/year.
-                </li>
-                <li>
-                  Ensures thousands of passengers can rely on clean,
-                  well-maintained trains.
-                </li>
-                <li>Supports the regional Link light rail system.</li>
-              </ul>
-            </div>
-            <!-- end callout -->
+            <div>&nbsp;</div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</main>
-<footer>
-  <div id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h1 id="contact">Contact</h1>
-          <p>
-            Sound Transit Community Outreach <br />
-            Phone:
-            <a href="tel:2063985453 ">206-398-5453 </a>
-            <br />
-            Email:
-            <a href="mailto:OMFSouth@soundtransit.org">OMFSouth@soundtransit.org
-            </a>
-            <br />
-            Web:
-            <a href="https://soundtransit.org/omfs" target="_blank">soundtransit.org/omfs</a>
-          </p>
-          <hr />
-          <p>
-            Para información acerca del proyecto llame al: 1-800-823-9230
-            <br />
-            要瞭解項目資訊，請致電：1-800-823-9230 <br />
-            Звоните 1-800-823-9230, чтобы получить информацию о проекте.
-            <br />
-            프로젝트에 관한 정보는 다음으로 연락하십시오: 1-800-823-9230
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <img class="st-logo" src="https://wppo.blob.core.windows.net/sound-transits-sites/2021/12/ST_white_logo.svg"
-            alt="Sound Transit" />
-          <hr />
-          <h1>Follow us</h1>
-          <p>
-            <a class="sociallink" href="https://www.facebook.com/SoundTransit" target="_blank">
-              <img src="img/footer_fb_icon.svg" class="socialicon" alt="Facebook icon" />
-            </a>
-            <a class="sociallink" href="https://twitter.com/soundtransit" target="_blank">
-              <img src="img/footer_twitter_icon.svg" class="socialicon" alt="Twitter icon" />
-            </a>
-            <a class="sociallink" href="https://www.flickr.com/photos/soundtransit/" target="_blank">
-              <img src="img/footer_flickr_icon.svg" class="socialicon" alt="Flikr icon" />
-            </a>
-            <a class="sociallink" href="https://www.youtube.com/user/SoundTransit" target="_blank">
-              <img src="img/footer_youtube_icon.svg" class="socialicon" alt="YouTube icon" />
-            </a>
-            <a class="sociallink" href="https://www.instagram.com/soundtransit/" target="_blank">
-              <img src="img/footer_instagram_icon.svg" class="socialicon" alt="Instagram icon" />
-            </a>
-            <a class="sociallink" href="https://plus.google.com/explore/SoundTransit" target="_blank">
-              <img src="img/footer_googleplus_icon.svg" class="socialicon" alt="Google Plus icon" />
-            </a>
-          </p>
-          <hr />
-          <div class="rc-anchor-invisible-text">
-            <span>Protected by
-              <strong>reCAPTCHA</strong>
-            </span>
-            <div class="rc-anchor-pt">
-              <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a>
-              <span role="presentation"> - </span>
-              <a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a>
+
+    <!-- --- Next steps -----  -->
+    <div class="scroll-margin" id="stay-in-touch">
+      <div class="entry-header">
+        <div class="container-xxl px-lg-5">
+          <div class="row">
+            <div class="px-4 col">
+              <h2>Stay in touch</h2>
             </div>
           </div>
         </div>
       </div>
-      <p style="clear: both">
-        <a href="https://participate.online">
-          <img class="footerimg" src="img/po-white.png"
-            alt="Participate.online logo. Participate.online is a service of EnviroIssues." />
-        </a>
-      </p>
-
-      <div class="copyright clearfix">
-        Copyright ©2023
-        <a href="http://www.enviroissues.com" target="_blank">EnviroIssues</a>
+      <div class="8-4-cols">
+        <div class="container-xxl px-lg-5">
+          <div class="row">
+            <div class="px-4 col-lg-8 col-xl-9 mt-4">
+              <p>
+                Thank you for visiting our online open house! We hope you will
+                stay engaged with us. We will provide regular information about
+                construction activities and progress. To receive construction
+                alerts and periodic updates about the NE 130th Street Infill
+                Station project, sign up for our email newsletter!
+              </p>
+              <a
+                target="_blank"
+                href="https://public.govdelivery.com/accounts/WASOUND/subscriber/new?topic_id=WASOUND_372"
+                class="btn pbutton"
+                >Subscribe to our Newsletter</a
+              >
+              <p>
+                If you need to reach us during work hours with questions or
+                concerns. please contact us.
+              </p>
+              <strong>
+                For questions or more information on the NE 130th Street Infill
+                Station, please contact:
+              </strong>
+              <ul class="no-style">
+                <li><b>Dani Schmitt</b></li>
+                <li>Community Outreach Specialist</li>
+                <li><a href="tel:+2063985300">206-398-5300</a></li>
+                <li>
+                  <a href="mailto:dani.schmitt@soundtransit.org"
+                    >dani.schmitt@soundtransit.org</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <!-- 
-    <script>
-            window.jQuery ||
-                document.write(
-                    '<script src="js/vendor/jquery-1.12.0.min.js"><\/script>'
-                );
-        </script> -->
-  <!-- <script src="js/plugins.js"></script>
-        <script src="js/uswds.min.js"></script>
-        <script src="js/addtocalendar.min.js"></script> -->
-  <script src="js/main.js"></script>
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?
-cb=googleTranslateElementInit"></script>
-</body>
+    <div>&nbsp;</div>
 
+    <div class="urgent-banner">
+      <div class="container-xxl">
+        <div class="row p-2">
+          <strong class="text-center urgent-text"
+            >Have an after-hours construction concern?</strong
+          >
+          <strong class="text-center urgent-text"
+            >Call our 24-hour hotline:
+            <a href="tel:+8882982395">888-298-2395</a></strong
+          >
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="footer" class="mt-0">
+        <div class="container-xxl px-lg-5">
+          <div class="row">
+            <div class="px-4 col-md-6 col-lg-3">
+              <h2 class="footer-header" id="contact-us">
+                Questions? Contact us:
+              </h2>
+              <p>
+                <strong>Dani Schmitt</strong> <br /><strong>Phone:</strong>
+                <a href="tel:+2063985300">206-398-5300</a> <br /><strong
+                  >Email:</strong
+                >
+                <a href="mailto:dani.schmitt@soundtransit.org"
+                    >dani.schmitt@soundtransit.org</a
+                  >
+                <br /><strong>Web:</strong>
+                <a
+                  href=" https://www.soundtransit.org/system-expansion/lynnwood-link-extension"
+                  target="_blank"
+                  >Lynnwood Link Extension</a
+                >,
+                <a
+                  href="https://www.soundtransit.org/system-expansion/ne-130th-st-infill-station"
+                  target="_blank"
+                  >NE 130th St Infill Station</a
+                >
+              </p>
+            </div>
+            <div class="px-4 col-md-6 col-lg-3">
+              <h2 class="footer-header" id="contact">
+                Need assistance online or at an in-person event?
+              </h2>
+              <p>
+                Accessibility Inquiries:<br /><strong>Phone:</strong>
+                <a href="tel:18002014900">1-800-201-4900</a>, TTY Relay 711
+                <br /><strong>Email:</strong>
+                <a href="mailto:main@soundtransit.org">main@soundtransit.org</a>
+                <br />Monday - Friday, 7 a.m. to 7 p.m.
+              </p>
+            </div>
+            <div class="px-4 col-md-6 col-lg-3">
+              <h2 class="footer-header">Additional services:</h2>
+              <p>
+                General Rider Inquiries:<br /><strong>Phone:</strong>
+                <a href="tel:18888896368">1-888-889-6368</a>, TTY Relay 711
+                <br /><strong>Email:</strong>
+                <a href="mailto:main@soundtransit.org">main@soundtransit.org</a>
+                <br />Monday - Friday, 7 a.m. to 7 p.m.
+              </p>
+              <p>
+                Call or text Security 24/7:
+                <a href="tel:2063985268">206-398-5268</a>
+              </p>
+            </div>
+            <div class="px-4 col-md-6 col-lg-3">
+              <div>
+                <p>
+                  <img
+                    loading="lazy"
+                    src="/img/st-white.png"
+                    alt="Sound Transit"
+                  />
+                </p>
+              </div>
+              <h2
+                class="footer-header"
+                data-gtm-vis-first-on-screen-7220466_14="1433"
+                data-gtm-vis-total-visible-time-7220466_14="100"
+                data-gtm-vis-has-fired-7220466_14="1"
+              >
+                Follow us
+              </h2>
+              <p>
+                <a
+                  class="sociallink"
+                  href="https://www.facebook.com/SoundTransit"
+                  target="_blank"
+                >
+                  <img
+                    loading="lazy"
+                    src="img/footer_fb_icon.svg"
+                    class="socialicon"
+                    alt="Facebook icon"
+                  />
+                </a>
+                <a
+                  class="sociallink"
+                  href="https://twitter.com/soundtransit"
+                  target="_blank"
+                >
+                  <img
+                    loading="lazy"
+                    src="img/footer_twitter_icon.svg"
+                    class="socialicon"
+                    alt="Twitter icon"
+                  />
+                </a>
+                <a
+                  class="sociallink"
+                  href="https://www.flickr.com/photos/soundtransit/"
+                  target="_blank"
+                >
+                  <img
+                    loading="lazy"
+                    src="img/footer_flickr_icon.svg"
+                    class="socialicon"
+                    alt="Flikr icon"
+                  />
+                </a>
+                <a
+                  class="sociallink"
+                  href="https://www.youtube.com/user/SoundTransit"
+                  target="_blank"
+                >
+                  <img
+                    loading="lazy"
+                    src="img/footer_youtube_icon.svg"
+                    class="socialicon"
+                    alt="YouTube icon"
+                  />
+                </a>
+                <a
+                  class="sociallink"
+                  href="https://www.instagram.com/soundtransit/"
+                  target="_blank"
+                >
+                  <img
+                    loading="lazy"
+                    src="img/footer_instagram_icon.svg"
+                    class="socialicon"
+                    alt="Instagram icon"
+                  />
+                </a>
+                <a
+                  class="sociallink"
+                  href="https://plus.google.com/explore/SoundTransit"
+                  target="_blank"
+                >
+                  <img
+                    loading="lazy"
+                    src="img/footer_googleplus_icon.svg"
+                    class="socialicon"
+                    alt="Google Plus icon"
+                  />
+                </a>
+              </p>
+            </div>
+          </div>
+          <p style="clear: both"></p>
+          <div class="copyright clearfix">
+            Copyright ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            <a href="https://www.soundtransit.org/" target="_blank"
+              >Sound Transit</a
+            >
+          </div>
+          <p></p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/main.js"></script>
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit"
+    ></script>
+  </body>
 </html>
