@@ -397,19 +397,6 @@ button {
   width: 100%;
 }
 
-@media screen and (min-width: 481px) {
-  .usa-button,
-  .usa-button-primary,
-  .usa-button-primary:visited,
-  .usa-button:visited,
-  [type="button"],
-  [type="image"],
-  [type="reset"],
-  [type="submit"],
-  button {
-    width: auto;
-  }
-}
 input,
 select,
 textarea {
@@ -534,14 +521,6 @@ form [type="submit"] {
   display: block;
   margin-bottom: 1.5em;
   margin-top: 2.5rem;
-}
-
-@media screen and (min-width: 600px) {
-  form [type="submit"] {
-    padding-left: 2.7em;
-    padding-right: 2.7em;
-    width: auto;
-  }
 }
 
 label {
@@ -756,21 +735,6 @@ header#mainheader h1 {
   margin: 0.2em 0 0.3em 0;
   font-size: clamp(2.3rem, 1.5615rem, 3.6923vw, 4.1rem);
   line-height: 1;
-}
-
-@media screen and (max-width: 991px) {
-  img.stlogo {
-    display: block;
-    margin-bottom: 5px;
-  }
-
-  span.timespan {
-    padding-left: 10px;
-  }
-
-  .topbar #google_translate_element {
-    float: none;
-  }
 }
 
 /* ###### Legacy styles ####### */
@@ -1439,5 +1403,42 @@ figure img {
     top: 4.9rem;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .usa-button,
+  .usa-button-primary,
+  .usa-button-primary:visited,
+  .usa-button:visited,
+  [type="button"],
+  [type="image"],
+  [type="reset"],
+  [type="submit"],
+  button {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  form [type="submit"] {
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  img.stlogo {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  span.timespan {
+    padding-left: 10px;
+  }
+
+  .topbar #google_translate_element {
+    float: none;
   }
 }
