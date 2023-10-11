@@ -1307,14 +1307,14 @@ blockquote:not(:first-of-type) {
   margin-top: 0.5em;
 }
 blockquote p {
-  color: #555;
+  color:var(--railway-gray);
   font-size: inherit;
   line-height: 1.4;
 }
 blockquote footer {
   margin-top: 0.5em;
   padding: 0;
-  color: #777;
+  color: var(--highway-gray);
   font-size: inherit;
   text-align: left;
   font-style: italic;
