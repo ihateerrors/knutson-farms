@@ -1294,6 +1294,9 @@ figcaption {
 .accordion-list .thr {
   margin: 0px;
 }
+.sticky-top {
+  top: -1px;
+}
 
 blockquote {
   margin: 0 auto;
