@@ -427,8 +427,8 @@ select {
   -webkit-appearance: none;
   appearance: none;
   background-color: #fff;
-  background-image: url(img/arrow-down.png);
-  background-image: url(img/arrow-down.svg);
+  background-image: url(base-img/arrow-down.png);
+  background-image: url(base-img/arrow-down.svg);
   background-position: right 1.3rem center;
   background-repeat: no-repeat;
   background-size: 1.3rem;
@@ -539,7 +539,7 @@ h6 {
 }
 /* Layout */
 .topbar {
-  background-color: #d9d9d9;
+  background-color: #58595b;
 }
 
 .topbar span {
@@ -549,11 +549,12 @@ header#mainheader {
   width: 100%;
   background-color: #2b376e;
 }
+.footer-background {
+    background-color: #ececec;
+}
 #footer {
-  background-color: #2b376e;
   clear: both;
   margin-top: 20px;
-  color: white;
   padding: 20px 0;
 }
 #footer a,
@@ -650,10 +651,6 @@ li {
   vertical-align: sub;
 }
 
-.topbar #google_translate_element {
-  float: right;
-  margin: 0 20px 0 0;
-}
 
 .topbar #google_translate_element select {
   width: 200px;
@@ -721,7 +718,7 @@ video {
   clear: both;
 }
 header#mainheader {
-  background-color: var(--wave-blue);
+  background-color: #fff;
 }
 
 header#mainheader:after {
@@ -856,7 +853,7 @@ h3 {
 }
 
 .entry-header {
-  background-color: #2b376e;
+  background-color: #274c5b;
   color: white;
   width: 100%;
   padding: 25px 0px 25px 0px;
@@ -1444,4 +1441,7 @@ figure img {
   .topbar #google_translate_element {
     float: none;
   }
+}
+.goog-te-gadget {
+  color: #fff !important;
 }
