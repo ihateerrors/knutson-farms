@@ -31,3 +31,7 @@ ADD OVERRIDING STYES HERE
     margin-top: 2rem;
     margin-bottom: 0rem;
 }
+
+ul.mt-0 li {
+    margin-bottom: 0;
+}
