@@ -1,3 +1,33 @@
 /* #################################
 ADD OVERRIDING STYES HERE
 ################################# */
+
+.accordion {
+    border: 2px solid var(--color-gray);
+    border-radius: 5px;
+    color: var(--color-primary) ;
+    padding-bottom: 1.5rem;
+}
+.accordion.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.panel {
+    border: 2px solid var(--color-gray);
+    padding: .5rem 2rem;
+}
+.panel {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bo {
+    padding: 1rem;
+    border-radius: .5rem;
+    max-width: 900px;
+}
+
+.tl h4 {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
