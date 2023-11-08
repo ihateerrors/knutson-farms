@@ -53,7 +53,6 @@ table {
 .survey-wrap {
     border: 2px solid var(--color-gray);
     border-radius: 8px;
-    max-width: 900px;
 }
 .sg-title {
     display: none;
