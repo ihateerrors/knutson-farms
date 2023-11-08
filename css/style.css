@@ -49,3 +49,24 @@ table {
   th {
     background-color: #f2f2f2;
   }
+
+.survey-wrap {
+    border: 2px solid var(--color-gray);
+    border-radius: 8px;
+    max-width: 900px;
+}
+.sg-title {
+    display: none;
+}
+.sg-question-title {
+    font-weight: 700;
+}
+
+.sg-group-item {
+    padding-bottom: 0px !important;
+}
+#sg_SubmitButton {
+    background-color: var(--color-orange);
+    font-weight: 700;
+    color: white;
+}
