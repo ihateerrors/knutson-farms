@@ -64,8 +64,20 @@ table {
 .sg-group-item {
     padding-bottom: 0px !important;
 }
+.btn.btn-submit,
 #sg_SubmitButton {
     background-color: var(--color-orange);
     font-weight: 700;
     color: white;
+    border: 2px solid var(--color-orange);
+    border-radius: 5px;
+    font-size: 1.7rem;
+  
+}
+.btn.btn-submit:hover,
+#sg_SubmitButton:hover {
+    background-color: transparent;
+    color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+
 }
