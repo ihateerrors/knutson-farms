@@ -65,7 +65,8 @@ table {
     padding-bottom: 0px !important;
 }
 .btn.btn-submit,
-#sg_SubmitButton {
+#sg_SubmitButton,
+.btn.btn-secondary {
     background-color: var(--color-orange);
     font-weight: 700;
     color: white;
@@ -75,9 +76,11 @@ table {
   
 }
 .btn.btn-submit:hover,
-#sg_SubmitButton:hover {
+#sg_SubmitButton:hover,
+.btn.btn-secondary:hover {
     background-color: transparent;
     color: var(--color-orange);
     border: 2px solid var(--color-orange);
 
 }
+
