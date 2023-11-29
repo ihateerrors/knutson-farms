@@ -89,6 +89,16 @@ figure.mx-w-600 {
     margin: 0 auto;
 }
 
+.sm-links > a {
+    color: var(--color-primary)
+ 
+}
+.sm-links > i,
+.sm-links > a,
+.sm-links > a:visited {
+    padding: 1rem;
+    color: var(--color-primary)
+}
 
 
 @media screen and (min-width: 768px) { /* Adjust the min-width as needed */
