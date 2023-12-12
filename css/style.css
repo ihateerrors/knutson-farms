@@ -100,6 +100,9 @@ figure.mx-w-600 {
     color: var(--color-primary)
 }
 
+br {
+    line-height: .5rem;
+}
 
 @media screen and (min-width: 768px) { /* Adjust the min-width as needed */
     .two-column-list {
