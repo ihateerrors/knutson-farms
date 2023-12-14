@@ -100,6 +100,16 @@ figure.mx-w-600 {
     color: var(--color-primary)
 }
 
+footer .sg-content,
+.sg-survey-form {
+    padding: 0;
+}
+footer .sg-question {
+    margin-top: 0;
+}
+footer .sg-submit-button {
+    margin-right: auto;
+}
 br {
     line-height: .5rem;
 }
