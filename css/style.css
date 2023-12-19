@@ -114,6 +114,8 @@ br {
     line-height: .5rem;
 }
 
+
+
 @media screen and (min-width: 768px) { /* Adjust the min-width as needed */
     .two-column-list {
         column-count: 2;
