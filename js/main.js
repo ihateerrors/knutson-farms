@@ -69,3 +69,25 @@ $(window).scroll(function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const filterInput = document.getElementById("filterInput");
+  const itemList = document.getElementById("itemList");
+  const items = itemList.getElementsByTagName("li");
+
+  filterInput.addEventListener("keyup", filterItems);
+
+  function filterItems() {
+      const filterValue = filterInput.value.toLowerCase();
+
+      for (let i = 0; i < items.length; i++) {
+          const item = items[i];
+          const text = item.textContent.toLowerCase();
+
+          if (text.includes(filterValue)) {
+              item.style.display = "block"; // Show matching items
+          } else {
+              item.style.display = "none"; // Hide non-matching items
+          }
+      }
+  }
+});
